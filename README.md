@@ -2,10 +2,6 @@
 
 ---
 
-<p align="center">
-  <img src="Images/Final_Device.png" alt="Skynet Tronics Automated Sound Regulator" width="800">
-</p>
-
 ## Project Header
 
 **Skynet Tronics** presents a project for the **EN-1190 ENGINEERING DESIGN PROJECT** module.
@@ -103,49 +99,6 @@ You can view the full schematic diagrams for the project, showcasing the power, 
 </p>
 
 ---
-
-## Prototype Development
-
-Our project followed a rigorous engineering development life cycle. We started with breadboard-based proof-of-concepts, iteratively improving the circuit layout.
-
-| Stage | Photo |
-| :--- | :--- |
-| **Initial Prototype on Breadboard** | <img src="images/initial_prototype.png" alt="Initial breadboard prototype" width="300"> |
-| **Advanced Perfboard Prototype** | <img src="images/advanced_prototype.png" alt="Intermediate perfboard prototype with power supply" width="300"> |
-| **Final Product** | <img src="images/final_product_isolated.png" alt="Finished 3D-printed final product" width="300"> |
-
----
-
-## Testing and Stakeholder Feedback
-
-We conducted an extensive testing phase and a comprehensive stakeholder review to validate the problem and our solution. Our surveyed stakeholders included speakers, audience members, institutional managers, and professional audio engineers.
-
-### Testing and Validation Flowchart
-
-Our final testing followed a structured path:
-1.  Stakeholder Survey
-2.  Initial Prototype Development & Testing
-3.  PCB and Enclosure Design
-4.  Challenges and Fixes
-5.  Testing the Final Product
-
 <p align="center">
-  <img src="images/testing_flowchart.png" alt="Structured testing flowchart" width="600">
-  <br>
-  <em>Flowchart detailing the testing and iterative fix phases.</em>
+  <img src="Images/Final_Device.png" alt="Skynet Tronics Automated Sound Regulator" width="800">
 </p>
-<br>
-### Feedback Summary
-
-The stakeholder review confirmed the clear necessity for such a solution. We received exceptionally positive feedback, with a high rating indicating strong support for our automated, external dynamic adjustment solution. Stakeholders noted that fluctuating audio levels are indeed a major pain point, emphasizing that a solution that works with existing amplifiers without extensive modification would be highly valuable.
-
----
-
-## Limitations and Future Work
-
-While our solution is unique and robust, we are aware of several limitations:
-*   Dependency on an initial test run for environment-specific calibration.
-*   The assumption of relatively stable environmental conditions (which may not always be true in every setting).
-*   Potential for dependencies on the inherent quality, dynamic range, and responsiveness of the existing audio system.
-
-We look forward to future work that will address these limitations, potentially through more advanced AI-driven calibration routines and improved signal monitoring algorithms.
