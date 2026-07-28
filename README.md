@@ -1,7 +1,5 @@
 # 🔊 AUTOMATED SOUND REGULATOR
-<p align="center">
-  <img src="https://img.shields.io/badge/Completed-2025_(Semester_2)-2ea44f?style=flat-square&logo=calendar" alt="Completed in 2025" />
-</p>
+**📅 Project Date: 2025 (Semester 2)**
 
 ## Project Header
 
