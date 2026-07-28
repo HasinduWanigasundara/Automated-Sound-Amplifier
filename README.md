@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-  <img src="images/Final_Device.png" alt="Skynet Tronics Automated Sound Regulator" width="800">
+  <img src="Images/Final_Device.png" alt="Skynet Tronics Automated Sound Regulator" width="800">
 </p>
 
 ## Project Header
