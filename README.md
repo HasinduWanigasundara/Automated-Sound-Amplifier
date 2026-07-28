@@ -53,21 +53,6 @@ We focused heavily on the user interface and user experience, creating a design 
 | **Height** | 6 cm |
 | **Depth** | 15 cm |
 
----
-
-## Technical Details
-
-The development of the ASR posed several interesting technical challenges, especially around the dynamic range and real-time response of the analog audio signal.
-
-### Challenges Faced
-
-*   **Digital Potentiometer Limitations:** Working with digital potentiometers to achieve precise, step-less control of the signal proved to be complex.
-*   **Microphone-based Signal Monitoring:** Ensuring accurate sound monitoring from ambient noise, rather than just the direct signal, was a key design challenge that we tackled through iterative testing.
-
-### Schematic Design
-
-You can view the full schematic diagrams for the project, showcasing the power, signal processing, and microcontroller interfacing stages of the circuit.
-
 
 ---
 <p align="center">
