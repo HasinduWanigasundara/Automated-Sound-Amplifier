@@ -44,47 +44,20 @@ To address this issue, we propose the development of an external volume adjustme
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
-The Automated Sound Regulator (ASR) processes audio signals in real-time, bridging the gap between the raw audio input and the main amplification system. 
+The ASR is designed to be an automated device with key components focusing on different aspects of signal processing. The main operational flow is as follows:
 
-Below is the hardware architecture and signal flow of the ASR system:
+1.  **Signal Monitoring Unit:** Continuously samples the output signal from the main amplifier or a central sound source.
+2.  **Threshold Analysis Module:** Determines if the current audio level is within an acceptable, calibrated range.
+3.  **Dynamic Gain Adjustment Unit:** Automatically modifies the audio to maintain a stable, optimal output level.
+4.  **Configuration and Calibration Setup:** Enables customization of the system's operational thresholds for different environments.
 
-```mermaid
-graph TD
-    %% Define Styles
-    classDef input fill:#2a9d8f,stroke:#264653,stroke-width:2px,color:#fff;
-    classDef core fill:#e9c46a,stroke:#264653,stroke-width:2px,color:#333;
-    classDef output fill:#e76f51,stroke:#264653,stroke-width:2px,color:#fff;
-    classDef ui fill:#264653,stroke:#e9c46a,stroke-width:2px,color:#fff;
-
-    %% Subgraphs for Organization
-    subgraph Input Stage
-        MIC[🎙️ Microphone / Audio Source]:::input
-        KNOBS[🎛️ Rotary Encoders / User Input]:::input
-    end
-
-    subgraph Automated Sound Regulator (ASR)
-        SMU[🔎 Signal Monitoring Unit]:::core
-        MCU[⚙️ Microcontroller / Threshold Analysis]:::core
-        DGA[🎚️ Dynamic Gain Adjustment <br> *Digital Potentiometer*]:::core
-        OLED[📺 OLED Display UI]:::ui
-        
-        MIC -->|Analog Audio| SMU
-        SMU -->|Sampled Audio Level| MCU
-        KNOBS -->|Calibration & Thresholds| MCU
-        MCU -->|Gain Control Data| DGA
-        MCU -->|Live Stats| OLED
-        MIC -->|Raw Audio Path| DGA
-    end
-
-    subgraph Output Stage
-        AMP[📻 Main Audio Amplifier]:::output
-        SPK[🔊 Speakers]:::output
-        
-        DGA -->|Regulated Audio| AMP
-        AMP -->|Amplified Signal| SPK
-    end
+<p align="center">
+  <img src="images/system_flowchart.png" alt="Operational Flowchart of the Automated Sound Regulator" width="600">
+  <br>
+  <em>Overall operational flowchart of the ASR system.</em>
+</p>
 
 ### Unique Value
 
