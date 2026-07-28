@@ -16,18 +16,6 @@
 
 ---
 
-## 📖 Table of Contents
-
-- [Project Overview](#project-overview)
-- [System Architecture](#system-architecture)
-- [Design and Specifications](#design-and-specifications)
-- [Technical Details](#technical-details)
-- [Prototype Development](#prototype-development)
-- [Testing and Stakeholder Feedback](#testing-and-stakeholder-feedback)
-- [Limitations and Future Work](#limitations-and-future-work)
-
----
-
 ## Project Overview
 
 ### Problem Statement
@@ -49,12 +37,6 @@ The ASR is designed to be an automated device with key components focusing on di
 3.  **Dynamic Gain Adjustment Unit:** Automatically modifies the audio to maintain a stable, optimal output level.
 4.  **Configuration and Calibration Setup:** Enables customization of the system's operational thresholds for different environments.
 
-<p align="center">
-  <img src="images/system_flowchart.png" alt="Operational Flowchart of the Automated Sound Regulator" width="600">
-  <br>
-  <em>Overall operational flowchart of the ASR system.</em>
-</p>
-
 ### Unique Value
 
 Unlike typical audio solutions with fixed thresholds, our ASR offers a unique level of control with customizable, scene-specific calibration. As an external, standalone device, it provides dynamic adjustment without any need to replace or alter existing amplifiers. This makes it an affordable and highly adaptive solution for a variety of spaces, from small meeting rooms to large auditoriums.
@@ -71,12 +53,6 @@ We focused heavily on the user interface and user experience, creating a design 
 | **Height** | 6 cm |
 | **Depth** | 15 cm |
 
-<p align="center">
-  <img src="images/ui_views.png" alt="Front, Side, and Back Views of the ASR with Dimensions" width="800">
-  <br>
-  <em>Dimensional views of the device's exterior.</em>
-</p>
-
 ---
 
 ## Technical Details
@@ -92,11 +68,6 @@ The development of the ASR posed several interesting technical challenges, espec
 
 You can view the full schematic diagrams for the project, showcasing the power, signal processing, and microcontroller interfacing stages of the circuit.
 
-<p align="center">
-  <img src="images/full_schematic.png" alt="Full Schematic Diagram of the ASR circuit" width="800">
-  <br>
-  <em>Complete project schematic diagram.</em>
-</p>
 
 ---
 <p align="center">
